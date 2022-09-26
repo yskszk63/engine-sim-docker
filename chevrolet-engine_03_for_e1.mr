@@ -1,0 +1,8 @@
+import "engine_sim.mr"
+import "themes/default.mr"
+import "engines/chevrolet/chevrolet/engine_03_for_e1.mr"
+
+use_default_theme()
+set_engine(
+    engine_03_for_e1()
+)
